@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Convertisseur numérique</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="main();"
+	<!-- l'attribut onload="main'()" permet l'execution de la fonction javascript
+  main qui se trouve dans le fichier script.js-->
+  <label for="name">Ecrivez un nombre hexadécimal:</label>
+
+	<input id="hexInput">
+
+	<br>
+	<br>
+
+	<button id="convertButton">
+		Convertir en binaire
+	</button>
+
+  <br>
+  <br>
+
+  <label for="hexToBinPlaceHolder">Résultat de la conversion:</label>
+
+  <p id = "hexToBinPlaceHolder"></p>
+
+  <script src="clickConvertButtonHandler.js"></script> <!-- chargemnt du script après le chargement
+     des éléments de la page html -->
+</body>
+</html>
