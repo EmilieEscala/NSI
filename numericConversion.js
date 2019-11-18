@@ -1,7 +1,14 @@
 function hexWordToBin(hexWord){
 	//Ecrire une fonction de conversion d'un mot hexadécimal vers le mot binaire
 	// correspondant
-const hexWord = "binWord"
+		let binWord = "";
+	//Mettre à jour binWord à l'aide d'une boucle
+	for (i = 0; i < hexWord.length; i++) {
+		binWord += hexDigitToBin(hexWord.substr(i,1));
+	}
+	return binWord;
+}
+var hexWord = "binWord"
 for (const digit of hexWord) {
 	console.log(digit)
 }
