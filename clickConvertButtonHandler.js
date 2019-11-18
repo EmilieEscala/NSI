@@ -15,7 +15,7 @@ function convertionHandler(){
 	//displayHexToBin(binWord);
 
 	//version utilisant la composition de fonction
-	displayHexToBin(hexWordToBin(getHexString()))
+	displayHexToBin(hexWordToBin(getHexString(hexInput)))
 }
 
 
