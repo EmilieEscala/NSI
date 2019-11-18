@@ -1,17 +1,3 @@
-function displayHexToBin(binWord){
-	// Affiche la chaîne de caractère myText donnée en paramètre dans le
-	//paragraphe HTML d'identifiant display.
-	hexToBinPlaceHolder.textContent = binWord
-}
-
-
-function hexDigitToBin(hexDigit){
-	//Compléter cette fonction de conversion d'un caractère représentant un chiffre hexadécimal
-	//retournant le mot binaire correspondant.
-	upperCaseHexDigit = hexDigit.toUpperCase()
-	return ;
-}
-
 function convertionHandler(){
 	// La fonction proceed réalise la conversion de la chaîne entrée dans
 	//hexInput et affiche le résultat dans display.
@@ -66,4 +52,12 @@ function hexToBinMapping(HexValue){
 	"F":"1111"
 	}
 	return result[HexValue]
+}
+
+
+function hexDigitToBin(hexDigit){
+	//Compléter cette fonction de conversion d'un caractère représentant un chiffre hexadécimal
+	//retournant le mot binaire correspondant.
+	upperCaseHexDigit = hexDigit.toUpperCase()
+	return ;
 }
