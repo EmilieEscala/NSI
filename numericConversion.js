@@ -4,7 +4,7 @@ function hexWordToBin(hexWord){
 
 	var hexWord = "binWord";
 	for (const digit of hexWord) {
-		binWord += hexDigitToBin(digit);
+		binWord = hexDigitToBin(digit);
 	}
 }
 
