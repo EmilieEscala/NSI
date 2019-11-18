@@ -5,3 +5,8 @@ function main(){
 	convertButton.onclick = numericConversion
 }
 
+function displayHexToBin(binWord){
+	// Affiche la chaîne de caractère myText donnée en paramètre dans le
+	//paragraphe HTML d'identifiant display.
+	hexToBinPlaceHolder.textContent = binWord
+}
