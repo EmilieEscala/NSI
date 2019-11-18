@@ -17,7 +17,7 @@ function hexWordToBin(hexWord){
 }
 
 
-function hexToBinMapping(HexValue){
+function hexDigitToBin(HexValue){
 	//Compléter cette fonction construisant un objet de mapping
 	//qui fait correspondre aux chiffres hexadécimaux les mots
 	//binaires correspondants.
@@ -42,10 +42,3 @@ function hexToBinMapping(HexValue){
 	return result[HexValue]
 }
 
-
-function hexDigitToBin(hexDigit){
-	//Compléter cette fonction de conversion d'un caractère représentant un chiffre hexadécimal
-	//retournant le mot binaire correspondant.
-	upperCaseHexDigit = hexDigit.toUpperCase()
-	return ;
-}
