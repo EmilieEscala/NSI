@@ -2,8 +2,8 @@ function hexWordToBin(hexWord){
 	//Ecrire une fonction de conversion d'un mot hexadécimal vers le mot binaire
 	// correspondant
 
-	var binWord = "";
-	for (const digit of binWord) {
+	const binWord = "";
+	for (const digit of hexWord) {
 		binWord += hexDigitToBin(digit);
 	}
 }
