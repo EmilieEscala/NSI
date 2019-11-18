@@ -1,3 +1,10 @@
+function displayHexToBin(binWord){
+	// Affiche la chaîne de caractère myText donnée en paramètre dans le
+	//paragraphe HTML d'identifiant display.
+	hexToBinPlaceHolder.textContent = binWord
+}
+
+
 function hexDigitToBin(hexDigit){
 	//Compléter cette fonction de conversion d'un caractère représentant un chiffre hexadécimal
 	//retournant le mot binaire correspondant.
