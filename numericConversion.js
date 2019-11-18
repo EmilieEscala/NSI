@@ -1,9 +1,3 @@
-function getHexString(){
-	//getHexString récupère la chaine de caractère entrée dans le champ
-	//hexInput
-	return hexInput.value;
-}
-
 function hexWordToBin(hexWord){
 	//Ecrire une fonction de conversion d'un mot hexadécimal vers le mot binaire
 	// correspondant
