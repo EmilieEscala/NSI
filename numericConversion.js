@@ -8,7 +8,7 @@ function convertionHandler(){
 	//displayHexToBin(binWord);
 
 	//version utilisant la composition de fonction
-	displayHexToBin(hexWordToBin(getHexString(hexString)))
+	displayHexToBin(hexWordToBin(getHexString(hexToBinMapping)))
 }
 
 function getHexString(){
