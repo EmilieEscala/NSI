@@ -5,7 +5,7 @@ function hexWordToBin(hexWord){
 	let binWord = "";
 	//Mettre à jour binWord à l'aide d'une boucle
 	for (i = 0; i < hexWord.length; i++) {
-		binWord += hexToBinMapping(hexWord.substr(i,1));
+		binWord += hexDigitToBin(hexWord.substr(i,1));
 	}
 	return binWord;
 }
