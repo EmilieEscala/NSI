@@ -4,9 +4,10 @@ function hexWordToBin(hexWord){
 
 	var hexWord = "binWord"
 	for (const digit of hexWord) {
-		binWord += hexToBinMapping(digit);
+		binWord += hexDigitToBin(digit);
 	}
 }
+
 function hexDigitToBin(HexValue){
 	//Compléter cette fonction construisant un objet de mapping
 	//qui fait correspondre aux chiffres hexadécimaux les mots
